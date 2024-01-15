@@ -1,3 +1,11 @@
+@media screen and (max-width: 772px) {
+  .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
 @media screen and (max-width: 676px){
   .header{
     min-height: 350px;
@@ -12,8 +20,18 @@
     /* margin-left: 50px; */
     gap: 20px;
   }
-  /* .banner-section{
+  .banner-section{
     flex-direction: column;
+    
+  }
+  .text-container{
     width: 100%;
-  } */
+  }
+  .banner-img-container{
+    width: 90%;
+    margin: 40px auto;
+  }
+  .grid-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
