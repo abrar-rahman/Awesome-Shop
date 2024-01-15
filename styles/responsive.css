@@ -1,7 +1,19 @@
-@media screen and (max-width: 676px); {
+@media screen and (max-width: 676px){
+  .header{
+    min-height: 350px;
+  }
   .header-section{
-    flex-direction: column;}
-    .items-container{
-      flex-direction: column;
-    }
+    flex-direction: column;
+    /* margin-left: 50px; */
+    align-items: center;
+  }
+  .items-container{
+    flex-direction: column;
+    /* margin-left: 50px; */
+    gap: 20px;
+  }
+  /* .banner-section{
+    flex-direction: column;
+    width: 100%;
+  } */
 }
